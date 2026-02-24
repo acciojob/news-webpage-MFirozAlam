@@ -1,1 +1,45 @@
 /*  your css code here. If applicable */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Header */
+.header{
+    height:60px;
+    text-align:center;
+    background-color:#011e29;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/* Main Container */
+.container{
+    display:flex;               /* FLEX USED HERE */
+    justify-content:space-around;
+    padding:20px;
+    gap:20px;
+}
+
+/* Common Box Style */
+.box{
+    background-color:white;
+    padding:20px;
+    border-radius:15px;
+    flex:1;                     /* Equal width */
+}
+
+/* Make center bigger */
+.center{
+    flex:2;
+    text-align:center;
+}
+
+/* Right images */
+.right img{
+    margin-bottom:10px;
+    border-radius:8px;
+}
