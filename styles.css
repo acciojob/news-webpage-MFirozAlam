@@ -2,44 +2,52 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    background-color: #dcdcdc;   /* Body background color */
 }
 
-/* Header */
-.header{
-    height:60px;
-    text-align:center;
-    background-color:#011e29;
-    color:white;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+/* Header Styling */
+.header {
+    background-color: #083b3b;   /* Provided dark green color */
+    color: white;
+    text-align: center;
+    padding: 15px;
 }
 
-/* Main Container */
-.container{
-    display:flex;               /* FLEX USED HERE */
-    justify-content:space-around;
-    padding:20px;
-    gap:20px;
+/* Main Layout using Flex */
+.main-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
 }
 
-/* Common Box Style */
-.box{
-    background-color:white;
-    padding:20px;
-    border-radius:15px;
-    flex:1;                     /* Equal width */
+/* Latest News Section */
+.latest-news-section {
+    background-color: white;
+    padding: 20px;
+    width: 20%;
+    border-radius: 10px;
 }
 
-/* Make center bigger */
-.center{
-    flex:2;
-    text-align:center;
+/* Main Article Section */
+.main-article {
+    background-color: white;
+    padding: 20px;
+    width: 40%;
+    border-radius: 10px;
+    text-align: center;
 }
 
-/* Right images */
-.right img{
-    margin-bottom:10px;
-    border-radius:8px;
+/* Pictorial News Section */
+.pictorial-news-section {
+    background-color: white;
+    padding: 20px;
+    width: 20%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.pictorial-news-section img {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 8px;
 }
